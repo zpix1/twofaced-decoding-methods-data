@@ -1,6 +1,8 @@
 # Error-correcting codes without parity-check bits
 
-The raw experiments results for both BSC and BEC is in [data/tf-mle-grid-256x2048.csv](data/tf-mle-grid-256x2048.csv).
+The [Python results](data/tf-mle-grid-256x2048.csv) use `SeedSequence([2026110502, int(is_bsc), p_index, block_index])` as seed. Within each block, all `l` and `pi` values share source bits and channel draws.
+
+The [C++ results](data/tf-mle-grid-256x2048-additional.csv) use the same CSV columns.
 
 | BEC | BSC |
 | :---: | :---: |
